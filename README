@@ -1,0 +1,18 @@
+How to build the program:
+use "make client" to build the client
+use "make server" to build the server
+use "make clean" to clean the executable client and server
+
+How to run the program:
+
+on server side: bash ./server.sh <req_code>
+on client side: bash ./client.sh <server address> <n_port> <req_code> <msg>
+
+Which machine I use to build and test:
+ubuntu1804-008
+
+Version of compiler:
+gcc 7.4.0
+
+Version of make:
+GNU Make 4.1
