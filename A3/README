@@ -1,0 +1,18 @@
+How to build the program:
+use "make" to build the router
+use "make clean" to clean the executable router
+
+How to run the program:
+on nse(network state emulator) side: ./nse-linux386 <routers_host> <nse_port>
+on router side (run 5 routers in sequence on five windows):
+./router <router_id> <nse_host> <nse_port> <router_port>
+note: router_id and router_port should be unique for each router and nse_host and nse_port should match the host and port info for nse
+
+Which machine I use to build and test:
+nse is run on ubuntu1804-008 and routers are run on ubuntu1804-002
+
+Version of compiler:
+gcc 7.4.0
+
+Version of make:
+GNU Make 4.1
